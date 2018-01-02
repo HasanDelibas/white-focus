@@ -1,0 +1,19 @@
+.white-focus-background{
+    filter:blur(2px);
+    position:fixed;
+    left:0px;
+    right:0px;
+    top:0px;
+    bottom:0px;
+    z-index:998;
+    animation:white-focus-in 1s;
+    background:rgba(255,255,255,0.8);
+}
+@keyframes white-focus-in{
+    from{ background:transparent; }
+    to {background:rgba(255,255,255,0.8); }
+}
+.white-focused-element{
+    position:relative;
+    z-index:999;
+}
