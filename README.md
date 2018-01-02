@@ -1,2 +1,2 @@
 # white-focus
-Simple object focus with white
+Simple object focus with white background
